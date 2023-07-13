@@ -24,6 +24,7 @@ class HomeController extends Controller
     public function index()
     {
 
+
         return response()->json([
             'message' => 'You are logged in leeroy!',
             'user' => auth()->user()
